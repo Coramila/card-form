@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Frontend Mentor | Interactive card details form</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> --> 
+ 
+</head>
+
+<body>
+  <!-- <img src="images/bg-main-desktop.png" alt="background" class = "bg-img"> -->
+
+  <div class="container">
+    <div class="cartao">
+      <div class="cartao-frente">
+        <img src="images/bg-card-front.png" alt="frente do cartão" class="descricao__imagem">
+        <img src="images/card-logo.svg" alt="logo do cartão" class="descricao__imagem">
+
+        <p class="numero-cartao">0000 0000 0000 0000</p>
+        <p class="nome-cartao">Jane Appleseed</p>
+        <p class="mes-cartao">00</p>
+        <p class="ano-cartao">00</p>
+      </div>
+
+      <div class="cartao-verso">
+        <img src="images/bg-card-back.png" class="descricao__imagem">
+        <p class="cvc-cartao">000</p>
+      </div>
+    </div>
+
+    <form class="box">
+      
+      <div class="form-control">
+        <label for="number"> Cardholder Name</label>
+        <input type="text" id="name" placeholder="e.g. Jane Appleseed" size="50">
+        <small>First Name Cannot be empty</small>
+      </div>
+
+      
+      <div class="form-control">
+        <label for="number">Card Number</label>
+        <input type="text" id="number" placeholder="9591 6489 6389 101E">
+        <small>Last Name Cannot be empty</small>
+      </div>
+
+        <div class="box__container">
+                  
+          <div class="form-control">
+            <label for="data">Exp. Date (MM/YY)</label>
+            <div class="data__input">
+              <input type="text" id="mes" placeholder="00">
+              <input type="text" id="ano" placeholder="YY">
+            </div>
+            <small>Password Name Cannot be empty</small>
+          </div>
+          
+          <div class="form-control">
+            <label for="cvc">CVC</label>
+            <input type="text" id="cvc" placeholder="000">
+            <small>Email Cannot be empty</small>
+          </div>
+        </div>
+
+      <button> Confirm </button>
+
+     </form>
+  </div>
+</body>
+</html>
