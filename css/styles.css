@@ -19,6 +19,8 @@ body{
 
 .cartao{
     display: grid;
+    padding: 2em;
+    padding-right: 5em;
 }
 
 .cartao-verso{
@@ -27,25 +29,43 @@ body{
 
 .box{
     background-color: white;
-    margin-left: 200px;
+    padding: 2em;
     margin-bottom:20px;
     text-align: left;
+    border-radius: 8px;
+}
+
+.entrada{
+    padding-bottom: 1em;
+    width: 100%;
+
 }
 
 input{
     display: block;
     width: 100%;
-    padding: 0.5em;
+    padding: 0.5em 0 0.5em 1em;
     margin-top: 0.5em;
     border-radius: 5px;
     border:  1px solid hsl(246, 25%, 77%);
 }
 
-.data__input{
+.box__container{
     display: flex;
-    /* grid-template-columns: 50% 50%; */
 }
 
+ .data__input{
+    width: 8em;
+    display: flex;
+} 
+
+#ano{
+    margin-left: 0.8em;
+}
+
+.cvc{
+    margin-left: 1em;
+}
 
 label{
     color: hsl(278, 68%, 11%);
@@ -56,18 +76,13 @@ label{
 
 small{
     font-size: 10px;
-    padding-bottom: 1em;
-}
-
-.box__container{
-    display: flex;
-    justify-content: space-between;
+    color: red;
 }
 
 button{
     background-color: hsl(278, 68%, 11%);
     color: white;
     width: 100%;
-    padding: 1em;
+    padding: 1em 2em 1em 1em;
     border-radius: 5px;
 }
