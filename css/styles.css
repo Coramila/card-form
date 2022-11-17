@@ -5,6 +5,8 @@ body{
     background-repeat: no-repeat;
     font-family: 'Space Grotesk';
     color: white;
+    background-size: 450px 100vh;
+    overflow: hidden;
 }
 
 .container{
@@ -49,22 +51,25 @@ body{
     top: 15px;
     font-family: 'Space Grotesk';
     text-transform: uppercase;
+    width: 400px;
 
 }
 
 .div-numero{
     margin-top: 1.2em;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .nome-e-data{
     display: flex;
     justify-content: space-between;
     margin-top: 3em;
+    gap: 25m;
 }
 
 .data{
     display: flex;
+    
 }
 
 
@@ -79,7 +84,6 @@ body{
 .entrada{
     padding-bottom: 1em;
     width: 100%;
-
 }
 
 input{
@@ -88,19 +92,31 @@ input{
     padding: 0.5em 0 0.5em 0;
     margin-top: 0.5em;
     border-radius: 5px;
-    border:  1px solid hsl(246, 25%, 77%);
+    border:  2px solid hsl(260, 4%, 85%);
+}
+
+input::placeholder{
+    padding-left: 1em;
+    font-weight: 600;
+    color: hsl(260, 4%, 85%);;
+}
+
+
+input:active{
+    outline: none;
+    border: 1.9px solid hsl(279, 6%, 55%);
 }
 
 .box__container{
     display: flex;
 }
 
- .data__input{
+.data__input{
     width: 8em;
     display: flex;
 } 
 
-#ano{
+#ano-form{
     margin-left: 0.8em;
 }
 
@@ -126,6 +142,16 @@ button{
     width: 100%;
     padding: 1em 2em 1em 1em;
     border-radius: 5px;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+}
+
+button:focus{
+    outline: none;
+}
+
+button:active{
+    transform: translateY(2px);
 }
 
 
