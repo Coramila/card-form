@@ -32,7 +32,8 @@ O usuário deve ser capaz de:
 
 ### Screenshot
 
-![](../print.jpg)
+![image](https://user-images.githubusercontent.com/78424298/202796969-3d6db842-19c0-4e24-bac8-ddee87fb8a45.png)
+
 
 <!-- ### Links
 
