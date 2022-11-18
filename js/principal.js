@@ -1,6 +1,6 @@
 const form = document.getElementById('form');
 
- form.addEventListener('submit', e => {
+form.addEventListener('submit', e => {
     e.preventDefault();
 
         const nomeForm = form['nome-form'].value;
@@ -9,7 +9,7 @@ const form = document.getElementById('form');
         const anoForm = form['ano-form'].value;
         const cvcForm = form['cvc-form'].value;
 
-        if (nomeForm === ''){ 
+    if (nomeForm === ''){ 
         const small = form['nome-form'].parentNode.querySelector('small');
         small.innerText = 'Can`t be blank';
     } 
@@ -46,6 +46,8 @@ const form = document.getElementById('form');
 });
 
 
+
+
 form['nome-form'].addEventListener("keyup", e => {
     e.preventDefault();
 
@@ -59,6 +61,10 @@ form['numero-form'].addEventListener("keyup", e => {
 
     var nomeAlterado = document.querySelector(".numero-cartao");
     nomeAlterado.textContent = form['numero-form'].value;
+
+    if(form['numero-form'].value.length > form['numero-form'].maxLength) {
+        form['numero-form'].value=form['numero-form'].value.slice(0, form['numero-form'].maxLength);
+    }
 });
 
 form['mes-form'].addEventListener("keyup", e => {
@@ -66,6 +72,10 @@ form['mes-form'].addEventListener("keyup", e => {
 
     var nomeAlterado = document.querySelector(".mes-cartao");
     nomeAlterado.textContent = form['mes-form'].value;
+
+    if(form['mes-form'].value.length > form['mes-form'].maxLength) {
+        form['mes-form'].value=form['mes-form'].value.slice(0, form['mes-form'].maxLength);
+    }
 });
 
 form['ano-form'].addEventListener("keyup", e => {
@@ -73,6 +83,10 @@ form['ano-form'].addEventListener("keyup", e => {
 
     var nomeAlterado = document.querySelector(".ano-cartao");
     nomeAlterado.textContent = "/" + form['ano-form'].value;
+
+    if(form['ano-form'].value.length > form['ano-form'].maxLength) {
+        form['ano-form'].value=form['ano-form'].value.slice(0, form['ano-form'].maxLength);
+    }
 });
 
 form['cvc-form'].addEventListener("keyup", e => {
@@ -80,8 +94,11 @@ form['cvc-form'].addEventListener("keyup", e => {
 
     var nomeAlterado = document.querySelector(".cvc-cartao");
     nomeAlterado.textContent = form['cvc-form'].value;
-});
 
+    if(form['cvc-form'].value.length > form['cvc-form'].maxLength) {
+        form['cvc-form'].value=form['cvc-form'].value.slice(0, form['cvc-form'].maxLength);
+    }
+});
 
 
 
