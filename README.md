@@ -32,7 +32,7 @@ O usuário deve ser capaz de:
 
 ### Screenshot
 
-![](../print.jpg)
+(../print.jpg)
 
 <!-- ### Links
 
