@@ -37,11 +37,6 @@ O usuário deve ser capaz de:
 
 (../print.jpg)
 
-<!-- ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
-
 ## Meu processo
 
 Desafio feito como proposta da primeira semana de mentoria com foco em Código Todo Dia. Um projeto que pudesse ser construído em uma semana deveria ser escolhido. 
