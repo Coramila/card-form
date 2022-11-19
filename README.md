@@ -32,6 +32,9 @@ O usuário deve ser capaz de:
 
 ### Screenshot
 
+![image](https://user-images.githubusercontent.com/78424298/202796969-3d6db842-19c0-4e24-bac8-ddee87fb8a45.png)
+
+
 (../print.jpg)
 
 <!-- ### Links
@@ -43,7 +46,7 @@ O usuário deve ser capaz de:
 
 Desafio feito como proposta da primeira semana de mentoria com foco em Código Todo Dia. Um projeto que pudesse ser construído em uma semana deveria ser escolhido. 
 Tem sido realmente desafiador desenvolver a página a qual me propus e, dado o tempo estabelecido, esse é o mínimo produto viável que consegui entregar até então.
-Apesar de ter feitos cursos relacionado a HTML e CSS, esse projeto me ajudou a entender que é preciso manter a prática constante a fim de garantir que o aprendizado possa ser colocado em prática na solução de problemas.
+Apesar de ter feitos cursos relacionados a HTML e CSS, esse projeto me ajudou a entender que é preciso manter a prática constante a fim de garantir que o aprendizado possa ser colocado em prática na solução de problemas.
 
 ### Construído com
 
