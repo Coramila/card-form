@@ -8,12 +8,6 @@
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 
-  
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
- <!-- <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> --> 
  
 </head>
 
@@ -74,7 +68,7 @@
       
       <div class="entrada">
         <label for="number">Card Number</label>
-        <input type="number" id="numero-form" placeholder="9591 6489 6389 1014" maxLength="16" >
+        <input type="tel" id="numero-form" placeholder="9591 6489 6389 1014" minLength="16" maxLength="16" >
         <small></small>
       </div>
 
@@ -83,15 +77,15 @@
           <div class="data-form">
             <label for="data">Exp. Date (MM/YY)</label>
             <div class="data__input">
-              <input type="number" id="mes-form" placeholder="00" min="01" max="12" maxLength="2">
-              <input type="number" id="ano-form" placeholder="YY" min="22" max="32" maxLength="2">              
+              <input type="tel" id="mes-form" placeholder="00" min="01" max="12" minLength="2" maxLength="2">
+              <input type="tel" id="ano-form" placeholder="YY" min="22" max="32" minLength="2" maxLength="2">              
             </div>
             <small></small>
           </div>
           
           <div class="cvc">
             <label for="cvc">CVC</label>
-            <input type="number" id="cvc-form" placeholder="000" maxLength="3">
+            <input type="tel" id="cvc-form" placeholder="000" minLength="3" maxLength="3">
             <small></small>
           </div>
 
